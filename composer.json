@@ -1,0 +1,12 @@
+{
+    "name": "ali/pacage",
+    "description": "a laravel pacage for mack easy many  things",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ali",
+            "email": "ali98torbatsaz@gmail.com"
+        }
+    ],
+    "require": {}
+}
