@@ -8,5 +8,12 @@
             "email": "ali98torbatsaz@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\alitorbatsaz\\pacage\\providers\\AdminProvider"
+            ]
+        }
+    },
     "require": {}
 }

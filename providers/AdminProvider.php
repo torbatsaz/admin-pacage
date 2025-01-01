@@ -35,3 +35,6 @@ class  ViewProvider extends ServiceProvider
 
     }
 }
+
+
+// composer require alitorbatsaz/pacage dev-main
