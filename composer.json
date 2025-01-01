@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\alitorbatsaz\\pacage\\src\\providers\\AdminProvider"
+                "Admin\\providers\\AdminProvider"
             ]
         }
     },
