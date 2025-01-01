@@ -8,6 +8,11 @@
             "email": "ali98torbatsaz@gmail.com"
         }
     ],
+    "autoload":{  
+        "psr-4":{  
+           "Admin\\":"src/"
+        }
+     },
     "extra": {
         "laravel": {
             "providers": [

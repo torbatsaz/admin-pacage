@@ -1,11 +1,11 @@
 <?php
 
-namespace Project\providers;
+namespace Admin\providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
-class  ViewProvider extends ServiceProvider
+class  AdminProvider extends ServiceProvider
 {
     /**
      * Register any application services.
