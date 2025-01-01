@@ -25,7 +25,7 @@ class  AdminProvider extends ServiceProvider
             __DIR__.'/../view' => base_path('resource/views/admin'),
         ]);
 
-
+        dd('amin addesd');
         Route::prefix('admin')
         // ->namespace('Admin\Http\Controllers')
         // ->middleware('admin')
