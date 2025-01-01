@@ -21,16 +21,16 @@ class  AdminProvider extends ServiceProvider
     public function boot(): void
     {
         // $this->loadViewsFrom(__DIR__ . "/../view", 'view_admin');  
-        $this->publishes([
-            __DIR__.'/../view' => base_path('resource/views/admin'),
-        ]);
+        // $this->publishes([
+        //     __DIR__.'/../view' => base_path('resource/views/admin'),
+        // ]);
 
-        dd('amin addesd');
-        Route::prefix('admin')
-        // ->namespace('Admin\Http\Controllers')
-        // ->middleware('admin')
-        // ->group(__DIR__."/../../.project/admin/routes.php");
-        ->group(__DIR__ . "/../routes.php");
+        // dd('amin addesd');
+        // Route::prefix('admin')
+        // // ->namespace('Admin\Http\Controllers')
+        // // ->middleware('admin')
+        // // ->group(__DIR__."/../../.project/admin/routes.php");
+        // ->group(__DIR__ . "/../routes.php");
 
 
     }
